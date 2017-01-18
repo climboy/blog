@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Articles</title>
+	<title>lololololollololo</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
