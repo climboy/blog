@@ -6,7 +6,29 @@
 # @Last modified by:   Bamb!e
 # @Last modified time: 13-Jan-2017
  ?>
+<?php
+try{
+        $bdd = new PDO('mysql:host=localhost;dbname=blog_final;charset=utf8', 'root', '');
+    }
 
+    catch (Exception $e)
+    {
+        die('Erreur : ' . $e->getMessage());
+    }
+  if(isset($_REQUEST['author']) && isset($_REQUEST['comment'])){
+
+    $author = $_REQUEST['author']; $comment= $_REQUEST['comment'];
+    $sql = 'INSERT INTO comments(author, comment, date, id_articles) VALUES(:author, :comment, NOW(), :id_articles)';
+    $req = $bdd->prepare($sql);
+    // var_dump($req);
+    $req->bindParam(':author', $author);
+    $req->bindParam(':comment', $comment);
+    $req->bindParam(':id_articles', $_GET["id"]);
+    $result = $req->execute();
+}
+
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -43,21 +65,13 @@
 
 
     <?php
-    try{
-        $bdd = new PDO('mysql:host=localhost;dbname=blog_final;charset=utf8', 'root', '');
-    }
+    
 
-    catch (Exception $e)
-    {
-        die('Erreur : ' . $e->getMessage());
-    }
-
-    if(isset($_GET['id']))
+    if(isset($_GET['id']) && $_GET['id']!="")
     {
         // On récupère le contenu de la table articles
         $reponses = $bdd->query('SELECT * FROM articles where id="'.$_GET['id'].' " ');
         $articles = $reponses -> fetch(PDO::FETCH_ASSOC);
-    }
 
     ?>
 
@@ -112,23 +126,12 @@
 
   </div>
 
-
-  <?php
-
-  if(isset($_REQUEST['author']) && isset($_REQUEST['comment'])){
-
-    $author = $_REQUEST['author']; $comment= $_REQUEST['comment'];
-    $sql = 'INSERT INTO comments(author, comment, date, id_articles) VALUES(:author, :comment, NOW(), :id_articles)';
-    $req = $bdd->prepare($sql);
-    // var_dump($req);
-    $req->bindParam(':author', $author);
-    $req->bindParam(':comment', $comment);
-    $req->bindParam(':id_articles', $_GET["id"]);
-    $result = $req->execute();
-}
-
-
-?>
+<<?php    }
+    else 
+    {
+      header('Location:index.php');
+    } ?>
+  
 
 
 
