@@ -13,7 +13,7 @@
 	<title>Articles</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/index.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 </head>
 <body>

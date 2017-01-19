@@ -34,7 +34,7 @@ try{
 <head>
     <title>Commentaires des articles</title>
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="css/comments.css">
   <meta name="viewport" content="initial-scale=1, maximum-scale=4">
 </head>
 <body>

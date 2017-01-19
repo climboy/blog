@@ -13,7 +13,7 @@
 	<title>Blog</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style2.css">
+	<link rel="stylesheet" href="css/articles.css">
 	<script src="Bootstrap/js/bootstrap.min.js">
 
 	</script>

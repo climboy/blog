@@ -13,7 +13,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style4.css">
+    <link rel="stylesheet" href="css/equipe.css">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <title>Blog final</title>
   </head>
