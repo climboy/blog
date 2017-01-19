@@ -1,0 +1,65 @@
+#form{
+  width:400px;
+  margin: 0 auto;
+
+}
+
+h1{
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 2.2em;
+  margin-top: 1.3em;
+}
+
+p{
+  word-spacing: 0.4em;
+}
+
+body{
+  background-color: #FFFAFA;
+}
+
+ul.nav{
+  width: 100%;
+  text-align: center;
+}
+
+#container{
+
+  text-align: center;
+  padding: 0;
+}
+li.col-sm-4
+{
+  font-size: 2em;
+}
+#text
+{
+  text-align: justify;
+  font-family: "Rockwell";
+}
+h3
+{
+  font-family: "Britannic";
+  padding: 0;
+}
+#auteur
+{
+  font-family: "Rockwell";
+}
+#date
+{
+  font-family: "Rockwell";
+}
+a
+{
+  font-family: "Rockwell";
+}
+#titre
+{
+
+}
+#comp
+{
+  background-color: rgba(227,195,232,0.1);
+}

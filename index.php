@@ -13,6 +13,7 @@
 	<title>Articles</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 </head>
 <body>
@@ -39,75 +40,6 @@
 <script src="https://code.jquery.com/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-	<style>
-
-		#form{
-			width:400px;
-			margin: 0 auto;
-
-		}
-
-		h1{
-			text-align: center;
-			font-size: 3em;
-			margin-bottom: 2.2em;
-			margin-top: 1.3em;
-		}
-
-		p{
-			word-spacing: 0.4em;
-		}
-
-		body{
-			background-color: #FFFAFA;
-		}
-
-		ul.nav{
-			width: 100%;
-			text-align: center;
-		}
-
-		#container{
-
-			text-align: center;
-			padding: 0;
-		}
-		li.col-sm-4
-		{
-			font-size: 2em;
-		}
-    #text
-		{
-			text-align: justify;
-			font-family: "Rockwell";
-		}
-		h3
-		{
-			font-family: "Britannic";
-			padding: 0;
-		}
-		#auteur
-		{
-			font-family: "Rockwell";
-		}
-		#date
-		{
-			font-family: "Rockwell";
-		}
-		a
-		{
-			font-family: "Rockwell";
-		}
-		#titre
-		{
-
-		}
-		#comp
-		{
-			background-color: rgba(227,195,232,0.1);
-		}
-
-	</style>
 
 
   	<?php

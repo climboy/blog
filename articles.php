@@ -13,6 +13,7 @@
 	<title>Blog</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style2.css">
 	<script src="Bootstrap/js/bootstrap.min.js">
 
 	</script>
@@ -43,94 +44,6 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
-
-	<style>
-
-	#form{
-	     width:400px;
-	     margin: 0 auto;
-	}
-	/*@font-face {
-		font-family: 'Conv_watchtower';
-		src: url('css/watchtower.eot');
-		src: local('☺'), url('css/watchtower.woff') format('woff'), url('css/watchtower.ttf') format('truetype'), url('css/watchtower.svg') format('svg');
-		font-weight: normal;
-		font-style: normal;
-	}*/
-	h1{
-
-		font-size: 39px;
-		font-family: "Britannic";
-		font-variant: normal;
-		font-weight: 400;
-		line-height: 66.7px;
-		text-align: center;
-	}
-
-
-	p{
-		word-spacing: 0.4em;
-	}
-
-	body{
-		background-color: #FFFAFA;
-	}
-
-	ul.nav{
-		width: 100%;
-		text-align: center;
-	}
-
-	.container
-	{
-		background-color: rgba(227,195,232,0.1);
-
-
-
-
-
-
-	}
-
-	.buttons
-	{
-		text-align: center;
-
-	}
-	input{
-		font-size: 39px;
-		font-family: "Stencil";
-		font-variant: normal;
-		font-weight: 400;
-		line-height: 66.7px;
-		text-align: center;
-	}
-	textarea
-	{
-		font-size: 39px;
-		font-family: "Stencil";
-		font-variant: normal;
-		font-weight: 400;
-		line-height: 66.7px;
-		text-align: center;
-	}
-	a
-	{
-		font-family: "Rockwell";
-	}
- li.col-sm-4
- {
- 	font-size: 2em;
- }
- .form-control
- {
- 	font-family: "Rockwell";
- }
- h5
- {
- 	font-family: "Rockwell";
- }
-			</style>
 
 <div class="container">
 

@@ -13,72 +13,12 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style4.css">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <title>Blog final</title>
   </head>
   <body>
 
-<style>
-
-h1
-{
-text-align: center;
-font-size: 5em;
-margin-bottom: 2em;
-margin-top: 1.5em;
-font-family: "Britannic";
-}
-
-
-body
-{
-  background-color: #FFFAFA;
-  width: 100%;
-}
-
-ul.nav
-{
-  width: 100%;
-  text-align: center;
-}
-a img
-{
-  width: 2em;
-  height: 2em;
-
-
-}
-
-img.avatar
-{
-  width: 8.5em;
-  height: 8.5em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1em;
-  display: block;
-  border-radius: 0.5em;
-}
-
-li.col-sm-4
-{
-  font-size: 2em;
-}
-div.col-sm-2
-{
-text-align: center;
-}
-p
-{
-  font-size: 1.4em;
-  font-family: "Elephant";
-}
-a
-{
-  font-family: "Rockwell";
-}
-
-</style>
 <img src="css/bureau.jpg" alt="image0.jpg" style="    width: 100%; height: 10em;">
 <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
           <div class="container">
