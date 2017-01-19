@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>lololololollololo</title>
+	<title>Articles</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -127,31 +127,6 @@
 
 <body>
 
-<?php
-
-	try{
-		$bdd = new PDO('mysql:host=localhost;dbname=blog_final;charset=utf8', 'root', '');
-	}
-
-	catch (Exception $e){
-		die('');
-	}
-
-	if(isset($_REQUEST['author']) && isset($_REQUEST['title'])&& isset($_REQUEST['text'])){
-
-		$author = $_REQUEST['author']; $title = $_REQUEST['title']; $text= $_REQUEST['text'];
-		$req = $bdd->prepare('INSERT INTO articles(author, title, text, date) VALUES(:author, :title, :text, NOW())');
-
-		$req->bindParam(':author', $author);
-		$req->bindParam(':title', $title);
-		$req->bindParam(':text', $text);
-		$req->execute();
-
-
-	header('Location: articles.php');
-    exit();
-	}
-	?>
 
 
 

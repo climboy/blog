@@ -21,7 +21,7 @@
 <body>
 <img src="css/phone.jpg" alt="image0.jpg" style="    width: 100%; height: 10em;">
 	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-	          <div class="container">
+	          <div class="container-fluid">
 	      <div class="navbar-header">
 	   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 	     <span class="sr-only">Toggle navigation</span>
@@ -135,13 +135,13 @@
 <div class="container">
 
 
-	<form id="form" classs="form-group" action="index.php" method="post" name="formulaire">
+	<form id="form" classs="form-group" action="?" method="post" name="formulaire">
 		<h1> Ecrire un article </h1>
 		<h5>Auteur :</h5><input class="form-control" type="text" name="author" /><br/>
 		<h5>Titre :</h5><input class="form-control" type="text" name="title" /><br/>
 		<h5>Texte :</h5><textarea type="text" class="form-control" name="text" rows="3"></textarea><br/>
 		<div class="buttons">
-	<a href="index.php"><button type="submit"  class="btn btn-warning">Envoyer</button></a>
+	<button type="submit"  class="btn btn-warning">Envoyer</button>
 	<button class="btn btn-info" type="reset">Reset</button>
 </div>
 	</form>
@@ -168,10 +168,10 @@
 		$req->bindParam(':title', $title);
 		$req->bindParam(':text', $text);
 		$req->execute();
-
+		var_dump ($req);
 
 		header('Location: index.php');
-    exit();
+  exit();
 	}
 	?>
 	<script src="Bootstrap/js/bootstrap.min.js">
